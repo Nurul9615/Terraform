@@ -1,0 +1,24 @@
+variable "eks_name" {}
+variable "private_subnets" {}
+variable "eksnode_name" {}
+variable "instance_types" {}
+variable "capacity_type" {}
+variable "minnode" {}
+variable "maxnode" {}
+variable "desirednode" {}
+variable "keyname" {}
+variable "clusterautoscalerrole" {}
+variable "clusterautoscalerpolicy" {}
+variable "env" {}
+variable "role_name" {}
+variable "AmazonEKSClusterPolicy" {}
+variable "AmazonEKSServicePolicy" {}
+variable "assume_role_policy" {}
+variable "workspace" {}
+variable "ecr_name" {}
+
+variable "key_name" {}
+variable "eks_iam_role_name" {}
+variable "AmazonEKSWorkerNodePolicy" {}
+variable "AmazonEKS_CNI_Policy" {}
+variable "AmazonEC2ContainerRegistryReadOnly" {}

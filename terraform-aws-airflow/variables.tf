@@ -1,0 +1,10 @@
+variable "region" {}
+variable "mwaa_dag_storage_name" {}
+variable "mwaa_iam_role_name" {}
+variable "mwaa_environment_name" {}
+variable "security_group_ids" {}
+variable "subnet_ids" {}
+variable "env" {}
+variable "logging_target_bucket" {}
+variable "aws_account_id" {}
+variable "mwaa_role_arn" {}
